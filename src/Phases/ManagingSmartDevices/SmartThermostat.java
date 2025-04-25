@@ -41,4 +41,8 @@ public class SmartThermostat extends SmartDevice {
         return String.format("Thermostat: %s | Status: %s | Temperature: %dC | Protocol: %s",
                 getName(), getStatus(), temperature, getProtocol());
     }
+
+    public void setTemperature(int temperature) {
+        this.temperature = temperature;
+    }
 }

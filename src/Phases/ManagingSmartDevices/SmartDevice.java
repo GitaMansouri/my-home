@@ -103,7 +103,6 @@ public abstract class SmartDevice {
         return validValues.contains(value);
     }
 
-    @SuppressWarnings("unchecked")
     private boolean isValidRange(PropertyMetadata meta, int value) {
         Comparable<Integer> min = (Comparable<Integer>) meta.getMin();
         Comparable<Integer> max = (Comparable<Integer>) meta.getMax();

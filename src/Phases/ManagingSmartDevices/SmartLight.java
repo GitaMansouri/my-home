@@ -42,4 +42,8 @@ public class SmartLight extends SmartDevice {
         return String.format("Light: %s | Status: %s | Brightness: %d%% | Protocol: %s",
                 getName(), getStatus(), brightness, getProtocol());
     }
+
+    public void setBrightness(int brightness) {
+        this.brightness = brightness;
+    }
 }
