@@ -39,7 +39,7 @@ public class SmartLight extends SmartDevice {
 
     @Override
     public String getDeviceInfo() {
-        return String.format("Light: %s | Status: %s | Brightness: %d%% | Protocol: %s",
+        return String.format("%s %s %d%% %s",
                 getName(), getStatus(), brightness, getProtocol());
     }
 

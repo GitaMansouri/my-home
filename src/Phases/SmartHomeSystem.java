@@ -1,9 +1,8 @@
-package src.Phases;
+package  src.Phases;
 
 import src.Phases.AutomationRules.AutomationRule;
 import src.Phases.AutomationRules.TimeBasedRule;
 import src.Phases.ManagingSmartDevices.SmartDevice;
-import src.Phases.*;
 import src.Phases.ManagingSmartDevices.SmartLight;
 import src.Phases.ManagingSmartDevices.SmartThermostat;
 
@@ -159,7 +158,7 @@ public class SmartHomeSystem {
                     }
                 });
 
-        return "rules checked at " + time;
+        return "rules checked";
     }
 
     public List<String> listRules() {

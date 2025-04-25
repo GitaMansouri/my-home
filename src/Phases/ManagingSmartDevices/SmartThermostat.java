@@ -38,7 +38,7 @@ public class SmartThermostat extends SmartDevice {
 
     @Override
     public String getDeviceInfo() {
-        return String.format("Thermostat: %s | Status: %s | Temperature: %dC | Protocol: %s",
+        return String.format("%s %s %dC %s",
                 getName(), getStatus(), temperature, getProtocol());
     }
 
