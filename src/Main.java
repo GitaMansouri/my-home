@@ -3,6 +3,7 @@ package src;
 import java.util.*;
 import src.Phases.*;
 import src.Phases.ManagingSmartDevices.SmartDevice;
+import src.Phases.SmartHomeSystem;
 
 import java.util.Scanner;
 
